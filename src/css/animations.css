@@ -1,0 +1,35 @@
+/* Animate the about and services section */
+
+.appear {
+	will-change: transform, opacity;
+	opacity: 0;
+	transform: translate(0, 20px); 
+	transition: opacity 2s, transform 4s;
+	transition-delay: 0.1s;
+}
+
+.appear.visible { 
+	opacity: 1;
+	transform: translate(0, 0); 
+}
+
+.appear2 {
+	will-change: transform, opacity;
+	opacity: 0;
+	transform: translate(0, 20px); 
+	transition: opacity 2s, transform 4s;
+	transition-delay: 0.2s;
+}
+
+.appear2.visible { 
+	opacity: 1;
+	transform: translate(0, 0); 
+}
+
+/* Stop the animations while resizing the window */
+
+.resize-animation-stopper * {
+	animation-delay: 2s;
+  	animation: none !important;
+  	transition: none !important;
+}

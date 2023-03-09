@@ -1,0 +1,126 @@
+/* Layout for the Logo */
+
+.star {
+	width: 56px;
+	height: auto;
+	margin-left: 18px;
+	margin-right: 10px
+}
+
+#fiveStar {
+	padding-left: 0px;
+	padding-right: 8px;
+}
+
+.headerText {
+	padding-left: 0px;
+}
+
+.drop {
+	width: 40px;
+}
+
+header img {
+	min-width: 120px;
+    width: 12%;
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.logo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Layout for the phone number */
+
+#phone-number {
+	margin-right: 10px;
+}
+
+/* Layout for the carousel */
+
+img.d-block {
+    width: 100%;
+    height: auto;
+}
+
+.carousel-caption {
+	top: 33%;
+}
+
+@media (max-width: 1199.98px) {
+	.carousel-caption h2 {
+		font-size: 5vw;
+	}
+}
+
+@media (min-width: 1200px) {
+	.carousel-caption h2 {
+		font-size: 3vw;
+	}
+}
+
+/* Layout for the navbar */
+
+.btn {
+	margin-top: 20px;
+}
+
+.navbar-text {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-right: 10px;
+}
+
+/* Adding spacing to each section */
+
+#about {
+    padding-top: 30px;
+}
+
+#services {
+	padding-top: 30px;
+}
+
+#testimonials {
+	padding-top: 30px;
+}
+
+#contact {
+	padding-top: 30px;
+}
+
+hr {
+	margin-bottom: 40px
+}
+
+.services {
+	padding-top: 10px;
+}
+
+#contact-section {
+  	padding-top: 14px;
+	padding-bottom: 20px;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+/* Create two columns that float next to eachother */
+
+.contact-column {
+  margin-top: 6px;
+  padding: 20px;
+}
+
+.container-fluid {
+	margin-bottom: 30px;
+}
+
+@media (max-width: 1199.98px) {
+	#phone-numb {
+		width: 100%;
+	}
+}

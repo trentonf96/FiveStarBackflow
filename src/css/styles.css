@@ -1,0 +1,135 @@
+/* Set up the fonts for the page */
+
+@font-face {
+	font-family: AlVeritas-Bold;
+	src: url("../logo/fonts/AIVeritas-Bold.otf");
+}
+
+@font-face {
+	font-family: AlVeritas-Roman;
+	src: url("../logo/fonts/AIVeritas-Roman.otf");
+}
+
+@font-face {
+	font-family: futuran_1;
+	src: url("../logo/fonts/futuran_1.TTF");
+}
+
+body {
+    font-family: AlVeritas-Bold, AlVeritas-Roman, futuran_1, sans-serif;
+}
+
+/* Style the logo font */
+
+#fiveStar {
+	font-size: 1.8rem;
+	color: #201E55;
+}
+
+#backServ {
+	font-family: futuran_1;
+	font-size: 1.3rem;
+	color: #201E55;
+}
+
+.headerText {
+	letter-spacing: 0.16rem;
+	display: block;
+	align-content: center;
+}
+
+/* Style the carousel */
+
+.carousel-caption {
+	font-family: AlVeritas-Roman;
+}
+
+/* Style for the navbar */
+
+.navbar {
+    background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,1.00) 71.24%,rgba(84,84,84,0.20) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(255,255,255,1.00) 71.24%,rgba(84,84,84,0.20) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(255,255,255,1.00) 71.24%,rgba(84,84,84,0.20) 100%);
+    background-image: linear-gradient(180deg,rgba(255,255,255,1.00) 71.24%,rgba(84,84,84,0.20) 100%);
+}
+
+.navbar-text {
+    font-size: 1.2em;
+}
+
+#navbarSupportedContent1 {
+	font-family: futuran_1;
+}
+
+.navbar-toggler {
+	font-family: futuran_1;
+	align-content: center;
+}
+
+/* Style the headers */
+
+h1.display-4, h2.display-4 {
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.30);
+}
+
+/* Style for the About section */
+
+#about p {
+	font-family: futuran_1;
+}
+
+#about h4 {
+    font-family: AlVeritas-Roman;
+    line-height: 2rem;
+}
+
+#about p i {
+	font-size: 120px;
+}
+
+/* Style for the Services section */
+
+.card {
+	display: inline-block;
+	background: transparent;
+}
+
+.card-img-top {
+    -webkit-box-shadow: 5px 4px 15px 1px rgba(0,0,0,0.40);
+    box-shadow: 5px 4px 15px 1px rgba(0,0,0,0.40);
+}
+
+.card-text {
+	font-family: futuran_1;
+}
+
+/* Style for Testimonial section */
+
+.quote {
+	background-color: #201E55;
+}
+
+.quote p {
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 1.2rem
+}
+
+/* Style the Contact section */
+
+#contact-section h2 {
+	font-family: AlVeritas-Bold;
+}
+
+#contact-section {
+	border-radius: 5px;
+	background-color: #EBEBEB;
+	font-family: futuran_1;
+}
+
+#contact p {
+	font-size: 1.1rem;
+}
+
+.text-body {
+	resize: none;
+}
