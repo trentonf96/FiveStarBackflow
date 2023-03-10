@@ -18,7 +18,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "npm install pm2 && pm2 start app.config.json && pm2 save",
+    "start": "npm install pm2 serve && pm2 start app.config.json && pm2 save",
     "build": "npm install && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
