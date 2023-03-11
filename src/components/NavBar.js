@@ -16,7 +16,6 @@ export default function NavBar() {
                     id="five-text">Five Star</span></span> <span id="backServ">Backflow<img
                 src={drop} alt="Water" className="drop" />Services</span></a>
             </Navbar.Brand>
-            <Navbar.Toggle aria-controls="navbarSupportedContent1" />
             <Navbar.Collapse className="collapse navbar-collapse" id="navbarSupportedContent1">
                 <Nav className="navbar-nav mr-auto">
                     <Nav.Link className="nav-item border-bottom"><a className="nav-link scroll" href="#about">About</a></Nav.Link>
