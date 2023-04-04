@@ -145,7 +145,7 @@ class Contact extends React.Component {
 
         try {
             if (zips.includes(Number(this.state.zipcode))) {
-                let res = await fetch("https://five-star-backflow-backend.onrender.com/email", { 
+                let res = await fetch("https://five-star-backflow-backend.vercel.app/api/email", { 
                     method: "POST",
                     headers: {
                         'Content-type': 'application/json'
